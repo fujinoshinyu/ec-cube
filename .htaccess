@@ -35,7 +35,7 @@ DirectoryIndex index.php index.html .ht
 
 # デザインテンプレートを適用するため10Mで設定
 <IfModule mod_php7.c>
-    php_value upload_max_filesize 10M
+    php_value upload_max_filesize 1000M
 </IfModule>
 
 <IfModule mod_rewrite.c>
